@@ -22,8 +22,8 @@ if ($SQL->rowCount() > 0) {
 
     <tr>
       <th><?= $product['id'] ?></th>
-      <th><?= $product['Product'] ?></th>
-      <th><?= $product['Brand'] ?></th>
+      <th><?= $product['product'] ?></th>
+      <th><?= $product['brand'] ?></th>
       <th><?= $product['price'] ?></th>
     </tr>
   <?php endforeach ?>
